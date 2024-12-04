@@ -6,7 +6,7 @@ import { config } from "src/ultils";
 
 export function AuthRoutes() {
   const auth = useAuth();
-
+  console.log("auth", auth.authInfo?.user);
   if (config.api.useMock) {
     return <Outlet />;
   } else {

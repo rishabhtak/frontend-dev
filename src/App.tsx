@@ -44,7 +44,7 @@ export enum BaseURL {
   APP = "/who-are-you",
 }
 
-//update
+//up
 
 const App = () => {
   return (
